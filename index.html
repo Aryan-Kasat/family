@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title>My Family Book</title>
+  <script>var reasonarray = [
+    "Narayan Kasat",
+    "Sweta Kasat",
+    "Anika Kasat",
+    "Dhruv Kasat"
+  ];
+  var imgarray = [
+    "https://lh3.googleusercontent.com/proxy/iOkQaUkL6ZhK5elpO0NX-AMMUcl3qBGjS22dVhOI_AE9BBt2hnq3CUlLMZkuFT5VR5Hu8AteIS_7_R_5qS7nNDTA",
+    "https://lh3.googleusercontent.com/proxy/o_OA0X0NIZ8pWweGVexz-XmBww3IA1VqnwzO06iNjw9j77XElDJ2lXxOfsSp2jhsgRgEM6YAoRRWuIgYQDWco2xwr671PEalf7BTpurhDZHmTXstljIYkMH9FxmbAcHZI-rQcSIn9SL3rkMo0LBeS1nhC7p3",
+    "https://lh3.googleusercontent.com/proxy/2AxbrI1et5M1h8YBLHNjt424YHnE3WYG6iX5K-4xuqcACXLUMC2K3GRML_9ieWrF1YTO2NhFd0ixZmIHxb-k4hGZ",
+    "https://cliparts.zone/thu/336519.jpg",
+  ];
+  var i = 0;
+  function nextslide() {
+    document.getElementById("img1").src = imgarray[i];
+    document.getElementById("reason1").innerHTML = reasonarray[i];
+    i++;
+    if (i > 3) {
+      i = 0;
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+      <title>My Family Book</title>
+    </head>
+    
+    <body>
+      
+      <center><p> My Family Book</p></center>
+      <center><img id="img1" src="https://images-na.ssl-images-amazon.com/images/I/51KNpAKei-L.jpg"></center>
+      <center><p id="reason1">This is the project on my family book</p></center>
+      <center><button id="btn1" onclick="nextslide()">next</button></center>
+    </body>
+  
+    
+</html> 
